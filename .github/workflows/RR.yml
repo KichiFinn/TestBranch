@@ -25,7 +25,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@master
         with:
-          branch: Git-Management-Tool
+          ref: Git-Management-Tool
           persist-credentials: true # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
           fetch-depth: 0
       - uses: actions/setup-java@v2
@@ -54,6 +54,6 @@ jobs:
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
-          branch: Git-Management-Tool
+          ref: Git-Management-Tool
           github_token: ${{ secrets.GITHUB_TOKEN }}
           message: Generate Results
