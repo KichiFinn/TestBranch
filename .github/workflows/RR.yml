@@ -54,6 +54,6 @@ jobs:
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
-          ref: Git-Management-Tool
+          branch: Git-Management-Tool
           github_token: ${{ secrets.GITHUB_TOKEN }}
           message: Generate Results
