@@ -31,7 +31,8 @@ jobs:
         with:
           distribution: 'adopt' # See 'Supported distributions' for available options
           java-version: '11'
-          
+      - name: list file
+        run: ls -l > $GITHUB_WORKSPACE/a.txt
        # Delete files in Reports folder
       - name: Remove File
         run: rm -rf $GITHUB_WORKSPACE/Reports/*
