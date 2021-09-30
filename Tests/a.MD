@@ -6,7 +6,6 @@
 * dsddsfd
 ## Test Case Description
 * N/A
-* N/A
 ## Pre-conditions
 * N/A
 ## Post-conditions
