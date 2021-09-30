@@ -1,2 +1,8 @@
-
-asaa
+total 50232
+drwxr-xr-x 2 runner docker     4096 Sep 30 08:26 Document
+drwxr-xr-x 2 runner docker     4096 Sep 30 08:26 Library
+-rw-r--r-- 1 runner docker       12 Sep 30 08:26 README.md
+drwxr-xr-x 2 runner docker     4096 Sep 30 08:26 Reports
+drwxr-xr-x 2 runner docker     4096 Sep 30 08:26 Tests
+-rw-r--r-- 1 runner docker        0 Sep 30 08:26 a.txt
+-rw-r--r-- 1 runner docker 51971584 Sep 30 08:26 sw.exe
